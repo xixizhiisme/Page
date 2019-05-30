@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
-    private String[] title=new String[]{"First","Second","Third"};
+    private String[] title=new String[]{"猪","牛","羊"};
     public MyPageAdapter(FragmentManager manager){
         super(manager);
     }
